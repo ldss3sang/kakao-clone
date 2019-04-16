@@ -1,58 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
     <title>Friends</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="header__top">
-            <div class="header__column">
-                <i class="fas fa-plane"></i>
-                <i class="fas fa-wifi"></i>
-            </div>
-            <div class="header__column">
-                <span class="header__time">18:38</span>
-            </div>
-            <div class="header__column">
-                <i class="fas fa-moon"></i>
-                <img class="rotation__lock" style="width: 20px; height: 20px" src="images/rotation-lock.png" />
-                <i class="fab fa-bluetooth-b"></i>
-                <span class="header__battery">66% <i class="fas fa-battery-three-quarters"></i></span>
-            </div>
+      <div class="header__top">
+        <div class="header__column">
+          <i class="fas fa-plane"></i>
+          <i class="fas fa-wifi"></i>
         </div>
-        <div class="header__bottom">
-            <div class="header__column">
-                <span class="headere__text">Manage</span>
-            </div>
-            <div class="header__column">
-                <span class="header__text">Friends <span class="header__number">1</span></span>
-            </div>
-            <div class="header__column">
-                <i class="fas fa-cog"></i>
-            </div>
+        <div class="header__column">
+          <span class="header__time">18:38</span>
         </div>
+        <div class="header__column">
+          <i class="fas fa-moon"></i>
+          <img
+            class="rotation__lock"
+            style="width: 20px; height: 20px"
+            src="images/rotation-lock.png"
+          />
+          <i class="fab fa-bluetooth-b"></i>
+          <span class="header__battery"
+            >66% <i class="fas fa-battery-three-quarters"></i
+          ></span>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="header__column">
+          <span class="headere__text">Manage</span>
+        </div>
+        <div class="header__column">
+          <span class="header__text"
+            >Friends <span class="header__number">1</span></span
+          >
+        </div>
+        <div class="header__column">
+          <i class="fas fa-cog"></i>
+        </div>
+      </div>
     </header>
+    <main class="friends">
+      <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Find friends, chats, Plus Friends" />
+      </div>
+      <section class="friends__section">
+        <header class="friends__section-header">
+          <h6 class="friends__section-title">
+            My Profile
+          </h6>
+        </header>
+        <div class="friends__section-rows">
+          <div class="friends__section-row">
+            <img src="" alt="" />
+            <span class="friends__section-name">Sangseok</span>
+          </div>
+          <div class="friends__section-row">
+            <img src="" alt="" />
+            <span class="friends__section-name">Friends' Names Display</span>
+          </div>
+        </div>
+      </section>
+      <section class="friends__section">
+        <header class="friends__section-header">
+          <h6 class="friends__section-title">
+            Friends
+          </h6>
+        </header>
+        <div class="friends__section-rows">
+          <div class="friends__section-row">
+            <div class="friends__section-column">
+              <img src="" alt="" />
+              <span class="friends__section-name">Sangseok</span>
+            </div>
+            <div class="friends__section-column">
+              <span class="friends__section-tagline">
+                Life is short, so live your life.
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <nav>
-        <a href="index.html" class="tab-bar__tab tab-bar__tab--selected">
-            <i class="fas fa-user"></i>
-            <span class="tab-bar__title">Friends</span>
-        </a>
-        <a href="chats.html" class="tab-bar__tab">
-            <i class="far fa-comment"></i>
-            <span class="tab-bar__title">Chats</span>
-        </a>
-        <a href="find.html" class="tab-bar__tab">
-            <i class="fas fa-search"></i>
-            <span class="tab-bar__title">Find</span>
-        </a>
-        <a href="more.html" class="tab-bar__tab">
-            <i class="fas fa-ellipsis-h"></i>
-            <span class="tab-bar__title">More</span>
-        </a>
+      <a href="index.html" class="tab-bar__tab tab-bar__tab--selected">
+        <i class="fas fa-user"></i>
+        <span class="tab-bar__title">Friends</span>
+      </a>
+      <a href="chats.html" class="tab-bar__tab">
+        <i class="far fa-comment"></i>
+        <span class="tab-bar__title">Chats</span>
+      </a>
+      <a href="find.html" class="tab-bar__tab">
+        <i class="fas fa-search"></i>
+        <span class="tab-bar__title">Find</span>
+      </a>
+      <a href="more.html" class="tab-bar__tab">
+        <i class="fas fa-ellipsis-h"></i>
+        <span class="tab-bar__title">More</span>
+      </a>
     </nav>
-</body>
+  </body>
 </html>
